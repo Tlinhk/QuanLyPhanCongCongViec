@@ -15,7 +15,7 @@ namespace QuanLyPhanCongCongViec
 {
     public partial class frmDangNhap : Form
     {
-        private const string ConnectionString = "Data Source=DESKTOP-8I1VIDD\\LINHLINH;Initial Catalog=QuanLyCongViec;Integrated Security=True";
+        private const string ConnectionString = "Data Source=DESKTOP-O0D76JD\\PHUONG_DB;Initial Catalog=QuanLyCongViec;Integrated Security=True";
         private SqlConnection connection;
         public frmDangNhap()
         {
@@ -56,7 +56,7 @@ namespace QuanLyPhanCongCongViec
                 string query = "Select * from TAIKHOAN where TenDangNhap = '" + tentk + "' and MatKhau = '" + matkhau + "'";
                 if (modify.TaiKhoan(query).Count > 0)
                 {
-                    MessageBox.Show("dang nhap thanh cong", "thong bao", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Login completed", "thong bao", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     string name;
 
                     using (SqlConnection connection = new SqlConnection(ConnectionString))
