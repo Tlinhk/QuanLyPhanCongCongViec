@@ -56,6 +56,7 @@ namespace QuanLyPhanCongCongViec
                 string query = "Select * from TAIKHOAN where TenDangNhap = '" + tentk + "' and MatKhau = '" + matkhau + "'";
                 if (modify.TaiKhoan(query).Count > 0)
                 {
+
                     MessageBox.Show("Linh Login completed", "thong bao", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     string name;
 
