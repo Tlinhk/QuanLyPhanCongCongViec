@@ -34,7 +34,6 @@
             this.btn_NKCT = new System.Windows.Forms.Button();
             this.btn_THCT = new System.Windows.Forms.Button();
             this.btn_PCCT = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_KHCT = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbl_thoigian = new System.Windows.Forms.Label();
@@ -49,10 +48,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel_child = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -67,7 +67,7 @@
             this.panel1.Controls.Add(this.btn_KHCT);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(150, 692);
             this.panel1.TabIndex = 0;
@@ -78,7 +78,7 @@
             this.btn_dangxuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_dangxuat.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_dangxuat.Location = new System.Drawing.Point(0, 609);
-            this.btn_dangxuat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_dangxuat.Margin = new System.Windows.Forms.Padding(2);
             this.btn_dangxuat.Name = "btn_dangxuat";
             this.btn_dangxuat.Size = new System.Drawing.Size(150, 83);
             this.btn_dangxuat.TabIndex = 8;
@@ -92,7 +92,7 @@
             this.btn_quantri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_quantri.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_quantri.Location = new System.Drawing.Point(0, 534);
-            this.btn_quantri.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_quantri.Margin = new System.Windows.Forms.Padding(2);
             this.btn_quantri.Name = "btn_quantri";
             this.btn_quantri.Size = new System.Drawing.Size(150, 78);
             this.btn_quantri.TabIndex = 7;
@@ -106,7 +106,7 @@
             this.btn_NKCT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_NKCT.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_NKCT.Location = new System.Drawing.Point(0, 435);
-            this.btn_NKCT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_NKCT.Margin = new System.Windows.Forms.Padding(2);
             this.btn_NKCT.Name = "btn_NKCT";
             this.btn_NKCT.Size = new System.Drawing.Size(150, 101);
             this.btn_NKCT.TabIndex = 6;
@@ -120,7 +120,7 @@
             this.btn_THCT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_THCT.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_THCT.Location = new System.Drawing.Point(0, 327);
-            this.btn_THCT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_THCT.Margin = new System.Windows.Forms.Padding(2);
             this.btn_THCT.Name = "btn_THCT";
             this.btn_THCT.Size = new System.Drawing.Size(150, 111);
             this.btn_THCT.TabIndex = 5;
@@ -134,7 +134,7 @@
             this.btn_PCCT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_PCCT.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_PCCT.Location = new System.Drawing.Point(0, 234);
-            this.btn_PCCT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_PCCT.Margin = new System.Windows.Forms.Padding(2);
             this.btn_PCCT.Name = "btn_PCCT";
             this.btn_PCCT.Size = new System.Drawing.Size(150, 97);
             this.btn_PCCT.TabIndex = 3;
@@ -142,26 +142,13 @@
             this.btn_PCCT.UseVisualStyleBackColor = false;
             this.btn_PCCT.Click += new System.EventHandler(this.btn_PCCT_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.pictureBox1.Image = global::QuanLyPhanCongCongViec.Properties.Resources.logo23;
-            this.pictureBox1.Location = new System.Drawing.Point(-7, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(165, 145);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // btn_KHCT
             // 
             this.btn_KHCT.BackColor = System.Drawing.Color.CadetBlue;
             this.btn_KHCT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_KHCT.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_KHCT.Location = new System.Drawing.Point(0, 142);
-            this.btn_KHCT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_KHCT.Margin = new System.Windows.Forms.Padding(2);
             this.btn_KHCT.Name = "btn_KHCT";
             this.btn_KHCT.Size = new System.Drawing.Size(150, 95);
             this.btn_KHCT.TabIndex = 2;
@@ -180,7 +167,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(150, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1383, 145);
             this.panel2.TabIndex = 1;
@@ -206,17 +193,17 @@
             this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Location = new System.Drawing.Point(1079, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Location = new System.Drawing.Point(1028, 0);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(304, 145);
+            this.panel5.Size = new System.Drawing.Size(355, 145);
             this.panel5.TabIndex = 11;
             // 
             // lbl_name
             // 
             this.lbl_name.AutoSize = true;
             this.lbl_name.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_name.Location = new System.Drawing.Point(140, 59);
+            this.lbl_name.Location = new System.Drawing.Point(119, 59);
             this.lbl_name.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_name.Name = "lbl_name";
             this.lbl_name.Size = new System.Drawing.Size(61, 23);
@@ -227,7 +214,7 @@
             // 
             this.lbl_chucvu.AutoSize = true;
             this.lbl_chucvu.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_chucvu.Location = new System.Drawing.Point(140, 97);
+            this.lbl_chucvu.Location = new System.Drawing.Point(119, 97);
             this.lbl_chucvu.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_chucvu.Name = "lbl_chucvu";
             this.lbl_chucvu.Size = new System.Drawing.Size(62, 23);
@@ -251,7 +238,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Maroon;
-            this.label6.Location = new System.Drawing.Point(114, 11);
+            this.label6.Location = new System.Drawing.Point(139, 11);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(67, 28);
@@ -325,10 +312,23 @@
             this.panel_child.AutoSize = true;
             this.panel_child.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_child.Location = new System.Drawing.Point(150, 145);
-            this.panel_child.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_child.Margin = new System.Windows.Forms.Padding(2);
             this.panel_child.Name = "panel_child";
             this.panel_child.Size = new System.Drawing.Size(1383, 547);
             this.panel_child.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.LightSlateGray;
+            this.pictureBox1.Image = global::QuanLyPhanCongCongViec.Properties.Resources.logo23;
+            this.pictureBox1.Location = new System.Drawing.Point(-7, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(165, 145);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // frmMain
             // 
@@ -338,17 +338,18 @@
             this.Controls.Add(this.panel_child);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMain";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
