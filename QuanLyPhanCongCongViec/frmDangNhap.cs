@@ -15,7 +15,7 @@ namespace QuanLyPhanCongCongViec
 {
     public partial class frmDangNhap : Form
     {
-        private const string ConnectionString = "Data Source=DESKTOP-8I1VIDD\\LINHLINH;Initial Catalog=QuanLyCongViec;Integrated Security=True";
+        private const string ConnectionString = "Data Source=DESKTOP-O0D76JD\\PHUONG_DB;Initial Catalog=QuanLyCongViec;Integrated Security=True";
         private SqlConnection connection;
         public frmDangNhap()
         {
