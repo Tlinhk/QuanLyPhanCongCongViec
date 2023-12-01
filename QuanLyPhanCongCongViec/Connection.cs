@@ -9,7 +9,7 @@ namespace QuanLyPhanCongCongViec
 {
     public class Connection
     {
-        private static string ConnectionString = "Data Source=DESKTOP-8I1VIDD\\LINHLINH;Initial Catalog=QuanLyCongViec;Integrated Security=True";
+        private static string ConnectionString = "Data Source= DESKTOP-2E91IF7 ;Initial Catalog=QuanLyCongViec;Integrated Security=True";
         public static SqlConnection GetSqlConnection()
         {
             return new SqlConnection(ConnectionString);
